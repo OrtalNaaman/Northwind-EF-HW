@@ -12,7 +12,7 @@ var regionsList = db.Regions.ToList();
 Console.WriteLine("****************Regions****************");
 regionsList.ForEach(region => Console.WriteLine(region.RegionDescription));
 
-//EX3
+//EX3-4
 var territories = db.Territories;
 Console.WriteLine("**************Territories**************");
 foreach (var territory in territories)
